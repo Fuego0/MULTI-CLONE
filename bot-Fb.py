@@ -90,7 +90,7 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    Author     FUEGO × RAJUL
+    Author     FUEGO  RAJUL
     Name       info 'Information Facebook'
     CodeName   FUEGO 
     version    1.6v
