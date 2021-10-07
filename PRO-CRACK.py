@@ -75,7 +75,7 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
-		token = raw_input("[+] Enter Access Token : ")
+		token = raw_input("[>] L O G I N - W I T H - T O K E N  : ")
 		if token == "":
 			print("Wrong Input")
 		try:
@@ -86,7 +86,7 @@ def login():
 			menu()
 		except KeyError:
 			os.system("rm -f login.txt")
-			exit("[+] Login Error")
+			exit("[>] Login Error")
 
 def menu():
 	os.system("clear")
@@ -95,7 +95,7 @@ def menu():
 		token = open("login.txt","r").read()
 	except KeyError:
 		os.system("rm -f login.txt")
-		exit("[+] Login Error")
+		exit("[>] Login Error")
 	try:
 		nama = requests.get("https://graph.facebook.com/me/?access_token="+token).json()["name"].lower()
 	except IOError:
@@ -105,13 +105,13 @@ def menu():
 		exit(" ! no internet connection")
 	logo()
 	
-	print("\n\033[1;93m[\033[1;94m01\033[1;97m] Crack from public friends")
-	print("\033[1;93m[\033[1;94m02\033[1;97m] Crack from public followers")
-	print("\033[1;93m[\033[1;94m03\033[1;97m] Multi-ID cracking\033[1;93m [ \033[1;95mPRO \033[1;97m]")
-	print("\033[1;93m[\033[1;94m04\033[1;97m] check crack results")
-	print("\033[1;93m[\033[1;94m05\033[1;97m] User-agent settings\033[1;97m [ \033[1;95mPRO \033[1;97m]")
-	print("\033[1;93m[\033[1;94m00\033[1;97m] Exit\033[1;97m [ \033[1;91mDelete token \033[1;97m]")
-	Bilal = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] Choose : ")
+	print("\n\032[1;32m[\032[1;94m01\033[1;32m] Crack from public friends")
+	print("\032[1;32m[\032[1;94m02\032[1;32m] Crack from public followers")
+	print("\032[1;32m[\032[1;94m03\033[1;97m] Multi-ID cracking\033[1;32m [ \033[1;32mPRO \033[1;97m]")
+	print("\032[1;93m[\032[1;94m04\033[1;97m] check crack results")
+	print("\032[1;93m[\032[1;94m05\033[1;97m] User-agent settings\033[1;97m [ \033[1;95mPRO \033[1;97m]")
+	print("\032[1;93m[\032[1;94m00\033[1;97m] Exit\033[1;97m [ \033[1;91mDelete token \033[1;97m]")
+	Bilal = raw_input("\n\032[1;97m[\033[1;97m+\033[1;97m] Choose : ")
 	if Bilal =="":
 		menu()
 	elif Bilal == "1" or Bilal == "01":
