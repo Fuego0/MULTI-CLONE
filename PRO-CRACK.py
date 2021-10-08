@@ -87,7 +87,7 @@ def login():
 		menu()
 	except KeyError:
 		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
-		print("IF you dont have Token Go Download !Get token app! ")
+		print("IF you dont have Token Go And Download !Get token app! ")
 		if token == "":
 			print("Wrong Input")
 		try:
@@ -121,15 +121,17 @@ def menu():
 	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
-	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
+	print("\033[1;37m[\033[1;32m05\033[1;37m] Subscribe \033[1;32mto \033[1;97m[\033[1;91mpremium\033[1;97m]")
        
-        print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
-	print("\033[1;37m[\033[1;32m01\033[1;37m] Crack from public followers")
-	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
-	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
-	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
-	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
-	Bilal = raw_input("\n\033[1;37m[\033[1;32m+\033[1;37m] Choose : ")
+      print("\n\033[1;37m[\033[1;31m!\033[1;37m] Tools for [\033[1;31mpremium\033[1;37m]")
+	print("\033[1;37m[\033[1;31m01\033[1;37m] Activate [\033[1;31mLocked-Profile\033[1;37m]")
+	print("\033[1;37m[\033[1;1m01\033[1;37m] Activate [\033[1;31mGuard-On\033[1;37m]")
+	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from public \033[1;32mSEARCH people")
+	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from public \033[1;32mFOLLOWERS")
+	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from \033[1;32mLIKES/REACTIONS \033[1;37m[\033[1;31mpremium\033[1;97m]")
+	print("\033[1;37m[\033[1;31m04\033[1;37m] Crack from Old ID list text \033[1;32m2005 - 2013")
+	print("\033[1;37m[\033[1;31m05\033[1;37m] Report Facebook ID target \033[1;97m[\033[1;91mpremium\033[1;97m]")
+	Bilal = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m] Choose : ")
 	if Bilal =="":
 		menu()
 	elif Bilal == "1" or Bilal == "01":
