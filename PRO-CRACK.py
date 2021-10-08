@@ -123,7 +123,7 @@ def menu():
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
        
-       print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
+        print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
 	print("\033[1;37m[\033[1;32m01\033[1;37m] Crack from public followers")
 	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
