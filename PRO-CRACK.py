@@ -122,7 +122,7 @@ def menu():
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
-       print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
+        print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
        print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
        print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
        print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;32mSEARCH NAME\033[1;37m")
