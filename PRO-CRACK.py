@@ -123,7 +123,7 @@ def menu():
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] Subscribe \033[1;32mto \033[1;97m[\033[1;91mpremium\033[1;97m]")
        
-      print("\n\033[1;37m[\033[1;31m!\033[1;37m] Tools for [\033[1;31mpremium\033[1;37m]")
+        print("\n\033[1;37m[\033[1;31m!\033[1;37m] Tools for [\033[1;31mpremium\033[1;37m]")
 	print("\033[1;37m[\033[1;31m01\033[1;37m] Activate [\033[1;31mLocked-Profile\033[1;37m]")
 	print("\033[1;37m[\033[1;1m01\033[1;37m] Activate [\033[1;31mGuard-On\033[1;37m]")
 	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from public \033[1;32mSEARCH people")
