@@ -63,10 +63,10 @@ def logo():
 
 \x1b[1;32m ---------------------------------------------
 \x1b[1;32m╔════════════════════════════════════════════╗
-\x1b[1;32m║\033[1;37m#Tool Author : \033[1;33mF U E G O 
-\x1b[1;32m║\033[1;37mYoutube by : \033[1;33mSOCIAL TECH                  
-\x1b[1;32m║\033[1;37mGithub : \033[1;33m3.0 v                          
-\x1b[1;32m║\033[1;37mFacebook :  \033[1;33m100008297554931 \033[1;31m[ F U E G O]    
+\x1b[1;32m║\033[1;37m Tool Author: \033[1;33mF U E G O 
+\x1b[1;32m║\033[1;37m Youtube by : \033[1;33mSOCIAL TECH                  
+\x1b[1;32m║\033[1;37m Github.        : \033[1;33mgithub.com/LEGEND-FUEGO                     
+\x1b[1;32m║\033[1;37m Facebook    : \033[1;33m100008297554931 \033[1;31m[ F U E G O]    
 \x1b[1;32m╚════════════════════════════════════════════╝
 
 
@@ -116,16 +116,16 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(" ! no internet connection")
 	logo()
-	print("\n\033[1;32m[\033[1;32m01\033[1;32m] Crack from public friends")
-	print("\033[1;32m[\033[1;32m02\033[1;32m] Crack from public followers")
+	print("\n\033[1;37m[\033[1;32m!\033[1;37m] This tool is for \033[1;33mFREE\033[1;37m use except [\033[1;31mpremium\033[1;37m]")
+	print("\033[1;37m[\033[1;32m01\033[1;37m] Crack from public followers")
 	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
 	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from \033[1;32mMULTI-ID's \033[1;37m[\033[1;31mPRO\033[1;97m]")
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent \033[1;32mSETTINGS\033[1;97m[\033[1;91mPRO\033[1;97m]")
-        print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
-        print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
-        print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
-        print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;32mSEARCH NAME\033[1;37m")
+       print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
+       print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
+       print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
+       print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;32mSEARCH NAME\033[1;37m")
 	
 	print("\n\033[1;37m[\033[1;32m+\033[1;37m] For \033[1;37m[\033[1;31mpremium\033[1;37m] use/Access contact Aurthor on below link ")
 	print("\n\033[1;37m[\033[1;32m+\033[1;37m] Arthor Link \033[1;37m[\033[1;33https://www.facebook.com/me.fb/100008297554931\033[1;37m]")
@@ -144,18 +144,18 @@ def menu():
 		massal()
 		method()
 	elif Bilal == "4" or Bilal == "04":
-		print("\n\033[1;37m[\033[1;32m01\033[1;37m] Check crack results  \033[1;32mOK")
-		print("\033[1;37m[\033[1;32m02\033[1;37m] Check crack results  \033[1;32mCP")
+		print("\n\033[1;37m[\033[1;32m1\033[1;37m] Check crack results  \033[1;32mOK")
+		print("\033[1;37m[\033[1;32m2\033[1;37m] Check crack results  \033[1;32mCP")
 		cek = raw_input("\n\033[1;37m[\033[1;32m+\033[1;37m]  \033[1;32mChoose : ")
 		if cek =="":
 			menu()
 		elif cek == "1":
 			dirs = os.listdir("OK")
-			print("\033[1;96m[\033[1;93m+\033[1;96m] Copy File Name  And Past into Input")
+			print("\033[1;97m[\033[1;32m+\033[1;97m] Copy file name  and past into Input")
 			for file in dirs:
 				print(" "+file)
 			try:
-				file = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] File Name : ")
+				file = raw_input("\n\033[1;97m[\033[1;92m+\033[1;97m] File name : ")
 				if file == "":
 					menu()
 				Totalok = open("OK/%s"%(file)).read().splitlines()
@@ -174,7 +174,7 @@ def menu():
 			for file in dirs:
 				print(" + "+file)
 			try:
-				file = raw_input("\n\033[1;32m[\033[1;32m+\033[1;32m] File Name : ")
+				file = raw_input("\n\033[1;32m[\033[1;32m+\033[1;32m] File name : ")
 				if file == "":
 					menu()
 				Totalcp = open("CP/%s"%(file)).read().splitlines()
@@ -193,7 +193,7 @@ def menu():
 		setting_ua()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
-		exit("\n\033[1;31m[\033[1;31m!\033[1;31m] Token Removed")
+		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
 	else:
 		menu()
 
@@ -236,7 +236,7 @@ def massal():
 	except IOError:
 		exit("\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	try:
-		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number \033[1;32[option] \033[1;37: "))
+		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number [\033[1;32option\033[1;37] \033[1;37 : "))
 	except:tanya_Total=1
 	for t in range(tanya_Total):
 		t +=1
