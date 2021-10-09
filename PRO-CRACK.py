@@ -65,15 +65,15 @@ def logo():
 \x1b[1;32m╔════════════════════════════════════════════╗
 \x1b[1;32m║\033[1;37m Tool Author: \033[1;33mF U E G O 
 \x1b[1;32m║\033[1;37m Youtube by : \033[1;33mSOCIAL TECH                  
-\x1b[1;32m║\033[1;37m Github.        : \033[1;33mgithub.com/LEGEND-FUEGO                     
-\x1b[1;32m║\033[1;37m Facebook    : \033[1;33m100008297554931 \033[1;31m[ F U E G O]    
+\x1b[1;32m║\033[1;37m Github     : \033[1;33mgithub.com/LEGEND-FUEGO                     
+\x1b[1;32m║\033[1;37m Facebook   : \033[1;33m100008297554931 \033[1;31m[ F U E G O]    
 \x1b[1;32m╚════════════════════════════════════════════╝
 
 
 \x1b[1;31m╔═════════════════════════════╗
-\x1b[1;31m║\033[1;37m  IP:  \033[1;32m105.245.110.103
-\x1b[1;31m║\033[1;37m  County Region:  \033[1;32mAll COUNTRIES
-\x1b[1;31m║\033[1;37m  Version:  \033[1;32m2.0
+\x1b[1;31m║\033[1;37m  IP: \033[1;32m105.245.110.103
+\x1b[1;31m║\033[1;37m  County Region: \033[1;32mAll COUNTRIES
+\x1b[1;31m║\033[1;37m  Version: \033[1;32m2.0
 \x1b[1;31m╚══════════════════════════════╝""")
 def login():
 	os.system("clear")
