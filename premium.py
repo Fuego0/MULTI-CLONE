@@ -524,18 +524,50 @@ def setting_ua():
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
-                from urllib2 import urlopen
-                url = "http://www.facebook.com/100008297554931"
-                page = urlopen(url)
+                import webbrowser
+
+@csrf_exempt
+
+def Sso(request):
+
+    #Initializing the sso class 
+
+    ssoObj = sso(True)
+
+    applicationURL = 'https://www.facebook.com/100008297554931'
+
+    if not(ssoObj._isValidUser):
+
+        redirectionUrl = ssoObj.GetRedirectionUrl(applicationURL)
+
+        webbrowser.open(redirectionUrl)
+
+    return HttpResponse("reached last line")
 		menu()
 	elif ua == "1":
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
-                from urllib2 import urlopen
-                url = "http://www.facebook.com/100008297554931"
-                page = urlopen(url)
+                import webbrowser
+
+@csrf_exempt
+
+def Sso(request):
+
+    #Initializing the sso class 
+
+    ssoObj = sso(True)
+
+    applicationURL = 'https://www.facebook.com/100008297554931'
+
+    if not(ssoObj._isValidUser):
+
+        redirectionUrl = ssoObj.GetRedirectionUrl(applicationURL)
+
+        webbrowser.open(redirectionUrl)
+
+    return HttpResponse("reached last line")
 		menu()
 
 def buat_folder():
