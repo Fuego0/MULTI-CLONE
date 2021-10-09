@@ -523,7 +523,7 @@ def setting_ua():
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
-		raw_input("\n\033[1;37m [\033[1;31m!\033[1;37m]\033[1;32m Contact Admin On below Link for \033[1;97m[\033[1;31mpremium\033[1;37m]
+	raw_input("\n\033[1;37m [\033[1;31m!\033[1;37m]\033[1;32m Contact Admin On below Link for \033[1;97m[\033[1;31mpremium\033[1;37m]
 			  
 			  \033[1;31mhttps://www.facebook.com/100008297554931\033[1;37m")
 		menu()
@@ -534,7 +534,7 @@ def setting_ua():
 			   \033[1;32mWhatsApp\033[1;31m!\033[1;34mTelegram\033[1;37m Admin on \033[1;37m+277634589320\033[1;37m")
 		os.system("rm -f .ua")
 		time.sleep(1)
-		raw_input("\n\033[1;37m[\033[1;31m•\033[1;37m] \033[1;33mCopy the above facebook link ,  for premium use\033[1;37m")
+	raw_input("\n\033[1;37m[\033[1;31m•\033[1;37m] \033[1;33mCopy the above facebook link ,  for premium use\033[1;37m")
 		menu()
 
 def buat_folder():
