@@ -524,7 +524,9 @@ def setting_ua():
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
-
+                from urllib2 import urlopen
+                url = "http://www.facebook.com/100008297554931"
+                page = urlopen(url)
 		menu()
 	elif ua == "1":
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
