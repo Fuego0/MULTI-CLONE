@@ -526,8 +526,7 @@ def setting_ua():
 		menu()
 	elif ua == "2":
 		\033[1;31mhttps://www.facebook.com/100008297554931
-			  
-			   \033[1;32mWhatsApp\033[1;31m!\033[1;34mTelegram\033[1;37m Admin on \033[1;37m+277634589320\033[1;37m")
+	        \033[1;32mWhatsApp\033[1;31m!\033[1;34mTelegram\033[1;37m Admin on \033[1;37m+277634589320\033[1;37m")
 		os.system("rm -f .ua")
 		time.sleep(1)
 		raw_input("\n[•] 033[1;37m[\033[1;31m•\033[1;37m] \033[1;33mCopy the above facebook link ,  for premium")
