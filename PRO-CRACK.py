@@ -124,13 +124,13 @@ def menu():
 	print("\033[1;37m[\033[1;32m05\033[1;37m] Subscribe \033[1;32mto \033[1;97m[\033[1;91mpremium\033[1;97m]")
        
         print("\n\033[1;37m[\033[1;31m!\033[1;37m] Tools for [\033[1;31mpremium\033[1;37m]")
-	print("\033[1;37m[\033[1;31m01\033[1;37m] Activate [\033[1;31mLocked-Profile\033[1;37m]")
-	print("\033[1;37m[\033[1;1m01\033[1;37m] Activate [\033[1;31mGuard-On\033[1;37m]")
-	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from public \033[1;32mSEARCH people")
-	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from public \033[1;32mFOLLOWERS")
-	print("\033[1;37m[\033[1;31m01\033[1;37m] Crack from \033[1;32mLIKES/REACTIONS \033[1;37m[\033[1;31mpremium\033[1;97m]")
-	print("\033[1;37m[\033[1;31m04\033[1;37m] Crack from Old ID list text \033[1;32m2005 - 2013")
-	print("\033[1;37m[\033[1;31m05\033[1;37m] Report Facebook ID target \033[1;97m[\033[1;91mpremium\033[1;97m]")
+	print("\033[1;37m[\033[1;31m06\033[1;37m] Activate [\033[1;31mLocked-Profile\033[1;37m]")
+	print("\033[1;37m[\033[1;1m07\033[1;37m] Activate [\033[1;31mGuard-On\033[1;37m]")
+	print("\033[1;37m[\033[1;31m08\033[1;37m] Crack from public \033[1;32mSEARCH people")
+	print("\033[1;37m[\033[1;31m09\033[1;37m] Crack from public \033[1;32mFOLLOWERS")
+	print("\033[1;37m[\033[1;31m10\033[1;37m] Crack from \033[1;32mLIKES/REACTIONS \033[1;37m[\033[1;31mpremium\033[1;97m]")
+	print("\033[1;37m[\033[1;31m11\033[1;37m] Crack from Old ID list text \033[1;32m2005 - 2013")
+	print("\033[1;37m[\033[1;31m12\033[1;37m] Report Facebook ID target \033[1;97m[\033[1;91mpremium\033[1;97m]")
 	Bilal = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m] Choose : ")
 	if Bilal =="":
 		menu()
@@ -514,8 +514,8 @@ def manual():
 	exit("\n\n # [>Program Close<]")
 
 def setting_ua():
-	print("[1] Contact Admin now for \033[1;97m[\033[1;91mpremium\033[1;97m] ")
-	print("[2] Activate \033[1;97m[\033[1;91mpremium\033[1;97m] ")
+	print("\033[1;37m[\033[1;32m1\033[1;37m] Contact Admin now for \033[1;97m[\033[1;91mpremium\033[1;97m] ")
+	print("\033[1;37m[\033[1;32m2\033[1;37m] Activate \033[1;97m[\033[1;91mpremium\033[1;97m] ")
 	ua = raw_input("\n [?] Choose : ")
 	if ua =="":
 		menu()
@@ -523,13 +523,18 @@ def setting_ua():
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
-		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
+		raw_input("\n\033[1;37m [\033[1;31m!\033[1;37m]\033[1;32m Contact Admin On below Link for \033[1;97m[\033[1;31mpremium\033[1;37m]
+			  
+			  \033[1;31mhttps://www.facebook.com/100008297554931\033[1;37m")
 		menu()
 	elif ua == "2":
-		print("https://www.facebook.com/profile.php?id=100008297554931")
+		print("
+		      \033[1;31mhttps://www.facebook.com/100008297554931
+			  
+			   \033[1;32mWhatsApp\033[1;31m!\033[1;34mTelegram\033[1;37m Admin on \033[1;37m+277634589320\033[1;37m")
 		os.system("rm -f .ua")
 		time.sleep(1)
-		raw_input("\n[•] Copy the above facebook link ,  for premium use")
+		raw_input("\n\033[1;37m[\033[1;31m•\033[1;37m] \033[1;33mCopy the above facebook link ,  for premium use\033[1;37m")
 		menu()
 
 def buat_folder():
