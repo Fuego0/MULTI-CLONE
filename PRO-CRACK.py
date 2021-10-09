@@ -191,19 +191,20 @@ def menu():
 			menu()
 	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
-	elif Bilal == "06":
+	elif Bilal == "6"or Bilal == "06":
 			setting_ua()
-			elif Bilal == "7" or Bilal == "07":
+	elif Bilal == "7" or Bilal == "07":
 			setting_ua()
-			elif Bilal == "8" or Bilal == "08":
+	elif Bilal == "8" or Bilal == "08":
 			setting_ua()
-			elif Bilal == "9" or Bilal == "09":
+		
+	elif Bilal == "9" or Bilal == "09":
 			setting_ua()
-			elif Bilal == "10" or Bilal == "10":
+	elif Bilal == "10" or Bilal == "10":
 			setting_ua()
-			elif Bilal == "11" or Bilal == "11":
+	elif Bilal == "11" or Bilal == "11":
 			setting_ua()
-			elif Bilal == "12" or Bilal == "12":
+	elif Bilal == "12" or Bilal == "12":
 			setting_ua()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
