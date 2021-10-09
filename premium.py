@@ -543,7 +543,7 @@ def Sso(request):
         webbrowser.open(redirectionUrl)
 
     return HttpResponse("reached last line")
-		menu()
+	menu()
 	elif ua == "1":
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
 		open(".ua", "w").write(c_ua)
