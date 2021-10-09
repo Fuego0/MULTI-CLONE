@@ -518,13 +518,13 @@ def setting_ua():
 	ua = raw_input("\n [?] Choose : ")
 	if ua =="":
 		menu()
-	elif ua == "1":
+elif ua == "1":
 		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
 		menu()
-	elif ua == "2":
+elif ua == "2":
 		\033[1;31mhttps://www.facebook.com/100008297554931
 	        \033[1;32mWhatsApp\033[1;31m!\033[1;34mTelegram\033[1;37m Admin on \033[1;37m+277634589320\033[1;37m")
 		os.system("rm -f .ua")
