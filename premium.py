@@ -86,8 +86,20 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
+		os.system("clear")
+	print("""\x1b[0;32m███████╗██╗   ██╗███████╗ ██████╗  ██████╗ 
+\x1b[1;32m██╔════╝██║   ██║██╔════╝██╔════╝ ██╔═══██╗
+\x1b[1;32m█████╗  ██║   ██║█████╗  ██║  ███╗██║   ██║
+\x1b[1;33m██╔══╝  ██║   ██║██╔══╝  ██║   ██║██║   ██║
+\x1b[1;33m██║     ╚██████╔╝███████╗╚██████╔╝╚██████╔╝
+\x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
+
+\x1b[1;32m --------------------------------------------- """)
+
+		print("\033[1;37mIF you dont have Token Go And Download !Get token app! ")
+		
 		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
-		print("IF you dont have Token Go And Download !Get token app! ")
+	
 		if token == "":
 			print("Wrong Input")
 		try:
