@@ -97,9 +97,8 @@ def login():
 \x1b[1;32m IF you dont have token Download !Get Access Token!
 
 \x1b[1;32m --------------------------------------------- """)
-	
 
-		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
+token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
 	
 		if token == "":
 			print("Wrong Input")
