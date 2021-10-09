@@ -191,7 +191,7 @@ def menu():
 			menu()
 	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
-	elif Bilal == "6" or Bilal == "06":
+	elif Bilal == "06":
 			setting_ua()
 			elif Bilal == "7" or Bilal == "07":
 			setting_ua()
