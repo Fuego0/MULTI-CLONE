@@ -140,7 +140,7 @@ def login():
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
 	try:
-print (" ")
+print 
 Username = "FUEGO"
 Password = "LEGEND404"
 
