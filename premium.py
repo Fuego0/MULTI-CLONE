@@ -79,7 +79,7 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
-		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N 
+	token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N 
         
  IF you dont have Token Go And Download !Get token app!\033[1;33m : ")
 		print("IF you dont have Token Go And Download !Get token app! ")
