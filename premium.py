@@ -139,8 +139,8 @@ def login():
 		requests.get("https://mbasic.facebook.com")
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
-	try:
-
+	
+gg
 Username = "FUEGO"
 Password = "LEGEND404"
 
