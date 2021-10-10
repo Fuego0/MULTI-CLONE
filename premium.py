@@ -57,6 +57,12 @@ header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-ne
 reload(sys)
 
 sys.setdefaultencoding("utf-8")
+c = ""
+
+c2 = ""
+
+c3 = ""
+
 
 import os
 try:
