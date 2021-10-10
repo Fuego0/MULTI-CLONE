@@ -187,45 +187,45 @@ def menu():
 		setting_ua()
 	elif Bilal == "6" or Bilal == "06":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
 	elif Bilal == "7" or Bilal == "07":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
 	elif Bilal == "8" or Bilal == "08":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
         elif Bilal == "9" or Bilal == "09":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
 	elif Bilal == "10" or Bilal == "10":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+		if ask == "n" 
 				menu()
 	elif Bilal == "11" or Bilal == "11":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
 	elif Bilal == "12" or Bilal == "12":
 			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-				if ask == "y"
+			if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
+			if ask == "n" 
 				menu()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
