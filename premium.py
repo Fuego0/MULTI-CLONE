@@ -322,13 +322,13 @@ def bapi(user):
 		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
 	elif len(name)<=3:
 		pwx = [ 668844, name+"111", name+"222", name+"333", name+"444", name+"555", name+"666", name+"777", name+"888", name+"999" ]
-	else:
+	elief len(name)<4:
 		pwx = [ name, name+"2004", name+"2003", name+"2001", name+"2002", name+"2000" ]
-	else:
+	elief len(name)<5:
 		pwx = [ 786786, 000786, 000123, 000456, 000789 , 000678, 457625, 67893, 998833 ]
 	else:
 		pwx = [ 112233, 123456, 102030, 223344, 445566, 556677, 778899, 468903, 780325 ]
-	else:
+		
 	try:
 		for pw in pwx:
 			pw = pw.lower()
