@@ -168,7 +168,7 @@ print(" ")
 try :
 		token = open("login.txt", "r")
 		menu()
-	except KeyError:
+except KeyError:
 		print("\033[1;33mIF you dont have Token Go And Download !Get token app! ")
 		print(" ")
 		print(" ")
