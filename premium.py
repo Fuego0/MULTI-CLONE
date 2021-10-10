@@ -76,30 +76,7 @@ def login():
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
 	try:
-		CorrectUsername = "FUEGO"
-CorrectPassword = "LEGEND404"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;92mEnter Tool Username \x1b[1;91m: \x1b[1;97m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;93mEnter Tool Password \x1b[1;91m: \x1b[1;97m")
-        if (password == CorrectPassword):
-            print "Successfully Logged  In as " + username #Dev:FUEGO
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;97mIncorrect Password"
-            os.system('xdg-open https://www.facebook.com/100008297554931')
-    else:
-        print "\033[1;97mIncorrect Username"
-        os.system('xdg-open https://www.facebook.com/100008297554931')
-idh = []
-
-def main():
-
-    os.system("clear")
-try :
+		
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
