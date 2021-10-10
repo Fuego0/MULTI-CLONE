@@ -1,5 +1,63 @@
 # -*- coding: utf-8
 # author by Mafia Fue-Go
+try:
+
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+    from multiprocessing.pool import ThreadPool
+
+except ImportError:
+
+    os.system("pip2 install requests")
+
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
+
+
+
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+
+    os.system("apt update && apt install nodejs -y")
+
+from requests.exceptions import ConnectionError
+
+os.system("git pull")
+
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("cd ..... && pip install progress")
+
+    os.system("cd ..... && npm install")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+    time.sleep(10)
+
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("#")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+bd=random.randint(2e7, 3e7)
+
+sim=random.randint(2e4, 4e4)
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+
+reload(sys)
+
+sys.setdefaultencoding("utf-8")
+
 import os
 try:
 	import requests
@@ -76,11 +134,36 @@ def login():
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
 	try:
-		
+		CorrectUsername = "FUEGO"
+CorrectPassword = "LEGEND404"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;92mEnter Tool Username \x1b[1;91m: \x1b[1;97m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;93mEnter Tool Password \x1b[1;91m: \x1b[1;97m")
+        if (password == CorrectPassword):
+            print "Successfully Logged  In as " + username #Dev:FUEGO
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;97mIncorrect Password"
+            os.system('xdg-open https://www.facebook.com/100008297554931')
+    else:
+        print "\033[1;97mIncorrect Username"
+        os.system('xdg-open https://www.facebook.com/100008297554931')
+idh = []
+
+def main():
+
+    os.system("clear")
+try :
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
 		print("\033[1;33mIF you dont have Token Go And Download !Get token app! ")
+		print(" ")
+		print(" ")
 		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
 		if token == "":
 			print("Wrong Input")
@@ -186,46 +269,46 @@ def menu():
 	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
 	elif Bilal == "6" or Bilal == "06":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "7" or Bilal == "07":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "8" or Bilal == "08":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
         elif Bilal == "9" or Bilal == "09":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "10" or Bilal == "10":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-		if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "11" or Bilal == "11":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "12" or Bilal == "12":
-			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :")
-			if ask == "y"
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
 				os.system('xdg-open https://www.facebook.com/100008297554931')
-			if ask == "n" 
+				if ask == "n" 
 				menu()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
