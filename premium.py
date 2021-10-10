@@ -186,43 +186,43 @@ def menu():
 		    setting_ua()
 	elif Bilal == "6" or Bilal == "06":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "7" or Bilal == "07":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "8" or Bilal == "08":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
         elif Bilal == "9" or Bilal == "09":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "10" or Bilal == "10":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "11" or Bilal == "11":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "12" or Bilal == "12":
 			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
-		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32m")
 		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
 		if cek =="":
 	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
