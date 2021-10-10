@@ -76,6 +76,30 @@ def login():
 	except requests.exceptions.ConnectionError:
 		exit("Internet Connection Error")
 	try:
+		CorrectUsername = "FUEGO"
+CorrectPassword = "LEGEND404"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;92mEnter Tool Username \x1b[1;91m: \x1b[1;97m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;97m[\033[1;91m+\033[1;97m] \033[1;91m \x1b[1;93mEnter Tool Password \x1b[1;91m: \x1b[1;97m")
+        if (password == CorrectPassword):
+            print "Successfully Logged  In as " + username #Dev:FUEGO
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;97mIncorrect Password"
+            os.system('xdg-open https://www.facebook.com/100008297554931')
+    else:
+        print "\033[1;97mIncorrect Username"
+        os.system('xdg-open https://www.facebook.com/100008297554931')
+idh = []
+
+def main():
+
+    os.system("clear")
+try :
 		token = open("login.txt", "r")
 		menu()
 	except KeyError:
@@ -185,20 +209,47 @@ def menu():
 	elif Bilal == "5" or Bilal == "05":
 		setting_ua()
 	elif Bilal == "6" or Bilal == "06":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "7" or Bilal == "07":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "8" or Bilal == "08":
-			setting_ua()
-		
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
         elif Bilal == "9" or Bilal == "09":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "10" or Bilal == "10":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "11" or Bilal == "11":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "12" or Bilal == "12":
-			setting_ua()
+			ask = raw_input("\033[1;97mYou are requesting for a \033[1;97m[\033[1;91mpremium\033[1;97m] \033[1;91my\033[1;97m/\033[1;91mn \033[1;97m :
+				if ask == "y"
+				os.system('xdg-open https://www.facebook.com/100008297554931')
+				if ask == "n" 
+				menu()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
@@ -218,7 +269,7 @@ def publik():
 			nama = i["name"].rsplit(" ")[0]
 			id.append(uid+"<=>"+nama)
 	except KeyError:
-		exit("\n\033[1;37m[\033[1;32m+\033[1;37m] Account Friend List is Not Public")
+		exit("\n\033[1;37m[\033[1;32m+\033[1;37m] account friend list is not public")
 	print("\033[1;31m[\033[1;31m+\033[1;31m] Total id  : \033[1;31m%s\033[1;31m"%(len(id))) 
 
 def follower():
