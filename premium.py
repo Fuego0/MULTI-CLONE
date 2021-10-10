@@ -241,28 +241,7 @@ def menu():
 		else:
 			menu()
 	elif Bilal == "5" or Bilal == "05":
-		    setting_ua()
-	elif Bilal == "6" or Bilal == "06":
-			print("Contact admin")
-	exit(" ")
-	elif Bilal == "7" or Bilal == "07":
-			print("Contact admin")
-	exit(" ")
-	elif Bilal == "8" or Bilal == "08":
-			print("Contact admin")
-	exit(" ")
-        elif Bilal == "9" or Bilal == "09":
-			print("Contact admin")
-	exit(" ")
-	elif Bilal == "10" or Bilal == "10":
-			print("Contact admin")
-	exit(" ")
-	elif Bilal == "11" or Bilal == "11":
-			print("Contact admin")
-	exit(" ")
-	elif Bilal == "12" or Bilal == "12":
-			print("Contact admin")
-	exit(" ")
+		   setting_ua()
 	elif Bilal == "0" or Bilal == "00":
 		os.system("rm -f login.txt")
 		exit("\n\033[1;37m[\033[1;32m!\033[1;37m] Token removed")
