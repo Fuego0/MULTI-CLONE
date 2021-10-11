@@ -75,8 +75,7 @@ def login():
 		print(" ")
 		print("\033[1;93m download on !playstore! ")
 		print(" ")
-		token = raw_input("\033[1;91m[?] E N T E R - A C C E S S - T O K EN 
-         : ")
+		token = raw_input("\033[1;91m[?] E N T E R - A C C E S S - T O K EN  : ")
         print("\033[1;92mLoading...")
         print("\033[1;92mLoading...")
         print("\033[1;92mLoading...")
