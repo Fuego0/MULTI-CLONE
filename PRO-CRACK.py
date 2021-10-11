@@ -75,9 +75,10 @@ def login():
 		print(" ")
 		print("\033[1;93m download on !playstore! ")
 		print(" ")
-		token = raw_input("\033[1;91m[?] E N T E R - A C C E S S - T O K EN  : ")
+		token = raw_input("\033[1;31m[1] L O G I N - W I T H - T O K E N \033[1;33m : ")
 		if token == "":
-           print("Wrong Input")
+			print("Wrong Input")
+             
 		try:
 			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
 			open("login.txt", "w").write(token)
