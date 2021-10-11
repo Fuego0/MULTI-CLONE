@@ -290,7 +290,7 @@ def bapi(user):
 	); sys.stdout.flush()
 	uid, name = user.split("<=>")
 	if len(name)>=6:
-		pwx = [ name, name+"1", name+"12", name+"111"name+"123", name+"1234", name+"12345" ]
+		pwx = [ name, name+"1", name+"12", name+"111", name+"123", name+"1234", name+"12345" ]
 	elif len(name)<=2:
 		pwx = [ name, name+"11", name+"33", name+"55", name+"77", name+"123", name+"1234", name+"12345" ]
 	elif len(name)<=3:
