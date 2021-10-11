@@ -76,6 +76,7 @@ def login():
 		print("\033[1;93m download on !playstore! ")
 		print(" ")
 		token = raw_input("\033[1;91m[?] E N T E R - A C C E S S - T O K EN  : ")
+		if token == "":
         print("\033[1;92mLoading...")
         print("\033[1;92mLoading...")
         print("\033[1;92mLoading...")
@@ -87,7 +88,7 @@ def login():
         print("\033[1;92mL.........")
         print("\033[1;92m..........")
         print("😊")
-		if token == "":
+        
 			print("Wrong Input")
 		try:
 			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
