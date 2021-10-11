@@ -77,19 +77,7 @@ def login():
 		print(" ")
 		token = raw_input("\033[1;91m[?] E N T E R - A C C E S S - T O K EN  : ")
 		if token == "":
-        print("\033[1;92mLoading...")
-        print("\033[1;92mLoading...")
-        print("\033[1;92mLoading...")
-        print("\033[1;92mLoadin....")
-        print("\033[1;92mLoadi.....")
-        print("\033[1;92mLoad......")
-        print("\033[1;92mLoa.......")
-        print("\033[1;92mLo.. .....")
-        print("\033[1;92mL.........")
-        print("\033[1;92m..........")
-        print("😊")
-        
-			print("Wrong Input")
+           print("Wrong Input")
 		try:
 			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
 			open("login.txt", "w").write(token)
