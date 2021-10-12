@@ -79,14 +79,14 @@ logo = """
 \x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
 \033[1;93m════════════════════LEGEND PROGRAMMER════════════════════
 
-\033[1;31m\033[1;92m TOOL AUTHOR : Dammy Prince\033[1;97m[ \033[0;92mDammy \033[1;97m]
+\033[1;31m\033[1;92m TOOL AUTHOR : \033[1;91mLEGEND FUEGO\033[1;97m[ \033[0;92mDammy \033[1;97m]
 
-\033[1;31m\033[1;92m FACEBOOK    : Igwilo Emilia Afoma
+\033[1;31m\033[1;92m FACEBOOK    : \033[1;91mFUEGO X RAJUL
 
-\033[1;31m+\033[1;92m WHATSAPP    : +27768432399
+\033[1;31m+\033[1;92m WHATSAPP    : \033[1;97m+27768432399
                            
-            MADE WITH LOVE IN SOUTH AFRICA ✓✓
-\033[1;93m════════════════════════════════════════
+            \033[1;93mMADE WITH LOVE IN SOUTH AFRICA ✓✓
+\033[1;93m═══════════════════════════════════════════════════════
 
 """
 
@@ -123,15 +123,15 @@ def main():
 
     print("")
 
-    print("\033[1;97m[\033[1;91m1\033[1;97m]\033[1;93m Clone from public ID \033[1;97m - \033[1;91m ith B-Api")
+    print("\033[1;97m[\033[1;91m1\033[1;97m]\033[1;93m Clone from public ID ")
 
     print("")
 
-    print("\033[1;97m[2]\033[1;91m!\033[1;92mUse Tools \033[1;97m[ \033[1;91mpremium\033[1;97m ]")
+    print("\033[1;97m[\033[1;91m2\033[1;97m]\033[1;92mUse Tools \033[1;97m[ \033[1;91mpremium\033[1;97m ]")
 
     print("")
 
-    print("\033[1;97m[0]\033[1;91m > \033[1;92mLog-out")
+    print("\033[1;97m[\033[1;91m0\033[1;97m]\033[1;92mLog-out")
 
     print("")
 
@@ -147,7 +147,7 @@ def main_select():
 
     if Abdullah =="2":
 
-        os.system("xdg-open https://www.facebook.com/lizzy.moses.7739")
+        os.system("xdg-open https://www.facebook.com/princess.lubisi.7")
 
 	main()  
 
@@ -229,7 +229,7 @@ def login_select():
 
             time.sleep(1)
 
-	    os.system("xdg-open https://www.facebook.com/lizzy.moses.7739")
+	    os.system("xdg-open https://www.facebook.com/princess.lubisi.7")
 	
 
 	    time.sleep(1)
