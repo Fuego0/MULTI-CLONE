@@ -79,7 +79,7 @@ logo = """
 \x1b[1;33m╚═╝      ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 
 \033[1;93m════════════════════LEGEND PROGRAMMER════════════════════
 
-\033[1;31m\033[1;92m TOOL AUTHOR : \033[1;91mLEGEND FUEGO\033[1;97m[ \033[0;92mDammy \033[1;97m]
+\033[1;31m\033[1;92m TOOL AUTHOR : \033[1;91mLEGEND FUEGO\033[1;97m[ \033[0;93m FUEGO \033[1;97m]
 
 \033[1;31m\033[1;92m FACEBOOK    : \033[1;91mFUEGO X RAJUL
 
